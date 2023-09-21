@@ -1,1 +1,1 @@
-This is an API that lets you get snippets for podcasts. This is a new branch.
+This is an API that lets you get snippets for podcasts. This is a new.
