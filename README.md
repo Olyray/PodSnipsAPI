@@ -1,0 +1,1 @@
+This is an API that lets you get snippets for podcasts.

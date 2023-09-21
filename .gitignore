@@ -1,0 +1,6 @@
+.env
+/clips
+/episodes
+main.py
+sha1script.sh
+__pycache__/
