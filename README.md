@@ -12,16 +12,16 @@ PodSnipsAPI is a Flask-based web API that allows users to create short clips fro
 ## Installation
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Olyray/PodSnipsAPI.git
+    ```bash
+    git clone https://github.com/Olyray/PodSnipsAPI.git
 
 2. **Navigate to the project directory**:
-  ```bash
-  cd PodSnipsAPI
+    ```bash
+    cd PodSnipsAPI
 
 3. **Install the required python packages**:
-```bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 
 ## Usage
