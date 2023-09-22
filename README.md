@@ -36,18 +36,19 @@ Then use the provided .env.example as template. Rename it to .env and use fill i
 
 The API would then be accessible at http://127.0.0.1:5000/  . Use the /api/v1/create_clip to send requests by sending a POST request with the required parameters.
 
-    ```
-    curl -X POST http://127.0.0.1:5000/api/v1/create_clip -H "Content-Type: application/json" -d '{"podcast_name": "History of China", "episode_number": 1, "start_time": "00:00:10", "end_time": "00:00:50"}'
-    ```
+```
+curl -X POST http://127.0.0.1:5000/api/v1/create_clip -H "Content-Type: application/json" -d '{"podcast_name": "History of China", "episode_number": 1, "start_time": "00:00:10", "end_time": "00:00:50"}'
+```
+
 
 This would create an output like this:
 
-    ```
-    {
-      "clip_url": "http://127.0.0.1:5000/clips/ef84f97a-5412-4ef4-a787-1e588cf8ba0b.mp3",
-      "message": "Clip created successfully"
-    }
-    ```
+```
+{
+  "clip_url": "http://127.0.0.1:5000/clips/ef84f97a-5412-4ef4-a787-1e588cf8ba0b.mp3",
+  "message": "Clip created successfully"
+}
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
